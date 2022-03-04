@@ -1,1 +1,1 @@
-web: serve public 
+web: npm start 

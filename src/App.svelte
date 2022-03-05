@@ -15,7 +15,7 @@
   <main>
     <div class="form-control">
       <h2>Select a date</h2>
-      <DateInput bind:value={date} format={"yyyy-MM-dd"} visible={true} />
+      <DateInput bind:value={date} format={"yyyy-MM-dd"} />
     </div>
     <p class="solution">
       The solution at that date is <span>{solution}</span>
